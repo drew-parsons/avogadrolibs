@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Avogadro 1.102.1\n"
 "Report-Msgid-Bugs-To: avogadro-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2026-01-24 19:10+0000\n"
+"POT-Creation-Date: 2026-09-13 06:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -171,6 +171,7 @@ msgstr ""
 #: molequeue/inputgeneratorwidget.cpp:164 qtgui/elementtranslator.cpp:372
 #: qtplugins/configurepython/configurepythondialog.cpp:188
 #: qtplugins/configurepython/configurepythondialog.cpp:191
+#: qtplugins/spacegroup/spacegroup.cpp:614
 msgid "Unknown"
 msgstr ""
 
@@ -467,7 +468,7 @@ msgstr ""
 
 #. i18n: file: qtplugins/templatetool/templatetoolwidget.ui:61
 #. i18n: ectx: property (text), item, widget (QComboBox, elementComboBox)
-#: qtgui/elementtranslator.cpp:17 qtplugins/noncovalent/noncovalent.h:53
+#: qtgui/elementtranslator.cpp:17 qtplugins/noncovalent/noncovalent.cpp:409
 msgid "Hydrogen"
 msgstr ""
 
@@ -1332,127 +1333,127 @@ msgstr ""
 msgid "Change Layer"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:42 qtgui/rwmolecule.cpp:51
+#: qtgui/rwmolecule.cpp:43 qtgui/rwmolecule.cpp:52
 msgid "Add Atom"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:73 qtgui/rwmolecule.cpp:88
+#: qtgui/rwmolecule.cpp:74 qtgui/rwmolecule.cpp:89
 #: qtplugins/editor/editor.cpp:142
 msgid "Remove Atom"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:98
+#: qtgui/rwmolecule.cpp:99
 msgid "Clear Atoms"
 msgstr ""
 
 #. i18n: file: qtplugins/editor/editortoolwidget.ui:43
 #. i18n: ectx: property (text), widget (QCheckBox, adjustHydrogens)
-#: qtgui/rwmolecule.cpp:110 qtgui/rwmolecule.cpp:118 :529
+#: qtgui/rwmolecule.cpp:111 qtgui/rwmolecule.cpp:119 :529
 msgid "Adjust Hydrogens"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:146 qtplugins/alchemy/alchemy.cpp:74
+#: qtgui/rwmolecule.cpp:147 qtplugins/alchemy/alchemy.cpp:74
 msgid "Change Elements"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:158
+#: qtgui/rwmolecule.cpp:159
 msgid "Change Element"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:239
+#: qtgui/rwmolecule.cpp:240
 msgid "Change Atom Hybridization"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:251
+#: qtgui/rwmolecule.cpp:252
 msgid "Change Atom Formal Charge"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:273
+#: qtgui/rwmolecule.cpp:274
 msgid "Change Atom Color"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:285
+#: qtgui/rwmolecule.cpp:286
 msgid "Change Atom Layer"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:301
+#: qtgui/rwmolecule.cpp:302
 msgid "Add Bond"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:327
+#: qtgui/rwmolecule.cpp:328
 msgid "Removed Bond"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:334
+#: qtgui/rwmolecule.cpp:335
 msgid "Clear Bonds"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:348
+#: qtgui/rwmolecule.cpp:349
 msgid "Set Bond Orders"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:360
+#: qtgui/rwmolecule.cpp:361
 msgid "Change Bond Order"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:382
+#: qtgui/rwmolecule.cpp:383
 msgid "Update Bonds"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:401
+#: qtgui/rwmolecule.cpp:402
 msgid "Update Bond"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:420
+#: qtgui/rwmolecule.cpp:421
 msgid "Add Unit Cell…"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:432
+#: qtgui/rwmolecule.cpp:433
 msgid "Remove Unit Cell"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:527
+#: qtgui/rwmolecule.cpp:528
 msgid "Edit Unit Cell"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:543
+#: qtgui/rwmolecule.cpp:544
 msgid "Wrap Atoms to Cell"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:566
+#: qtgui/rwmolecule.cpp:567
 msgid "Scale Cell Volume"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:586
+#: qtgui/rwmolecule.cpp:587
 msgid "Build Super Cell"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:610
+#: qtgui/rwmolecule.cpp:611
 msgid "Niggli Reduction"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:632
+#: qtgui/rwmolecule.cpp:633
 msgid "Rotate to Standard Orientation"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:657 qtplugins/spacegroup/spacegroup.cpp:56
+#: qtgui/rwmolecule.cpp:658 qtplugins/spacegroup/spacegroup.cpp:66
 msgid "Reduce to Primitive"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:682 qtplugins/spacegroup/spacegroup.cpp:62
-#: qtplugins/spacegroup/spacegroup.cpp:263
+#: qtgui/rwmolecule.cpp:688 qtplugins/spacegroup/spacegroup.cpp:72
+#: qtplugins/spacegroup/spacegroup.cpp:459
 msgid "Conventionalize Cell"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:707 qtplugins/spacegroup/spacegroup.cpp:288
+#: qtgui/rwmolecule.cpp:718 qtplugins/spacegroup/spacegroup.cpp:484
 msgid "Symmetrize Cell"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:726
+#: qtgui/rwmolecule.cpp:744
 msgid "Fill Unit Cell"
 msgstr ""
 
-#: qtgui/rwmolecule.cpp:746
+#: qtgui/rwmolecule.cpp:764
 msgid "Reduce Cell to Asymmetric Unit"
 msgstr ""
 
@@ -1743,6 +1744,7 @@ msgstr ""
 #: qtplugins/qtaim/qtaimwavefunction.h:48
 #: qtplugins/qtaim/qtaimwavefunction.h:81
 #: qtplugins/quantuminput/quantuminput.cpp:104
+#: qtplugins/spacegroup/spacegroup.cpp:659
 msgid "Error"
 msgstr ""
 
@@ -2268,20 +2270,20 @@ msgstr ""
 msgid "Line width:"
 msgstr ""
 
-#: qtplugins/closecontacts/closecontacts.h:36
-msgid "Render close contacts between atoms."
-msgstr ""
-
-#: qtplugins/closecontacts/closecontacts.h:54
+#: qtplugins/closecontacts/closecontacts.cpp:258
 msgid "Contact"
 msgstr ""
 
-#: qtplugins/closecontacts/closecontacts.h:55
+#: qtplugins/closecontacts/closecontacts.cpp:261
 msgid "Salt Bridge"
 msgstr ""
 
-#: qtplugins/closecontacts/closecontacts.h:56
+#: qtplugins/closecontacts/closecontacts.cpp:264
 msgid "Repulsive"
+msgstr ""
+
+#: qtplugins/closecontacts/closecontacts.h:36
+msgid "Render close contacts between atoms."
 msgstr ""
 
 #: qtplugins/coloropacitymap/coloropacitymap.cpp:66
@@ -2901,8 +2903,8 @@ msgid "Reduce Cell (&Niggli)"
 msgstr ""
 
 #: qtplugins/crystal/crystal.cpp:103 qtplugins/plotpdf/plotpdf.cpp:54
-#: qtplugins/plotxrd/plotxrd.cpp:54 qtplugins/spacegroup/spacegroup.cpp:107
-#: qtplugins/spacegroup/spacegroup.cpp:109
+#: qtplugins/plotxrd/plotxrd.cpp:54 qtplugins/spacegroup/spacegroup.cpp:124
+#: qtplugins/spacegroup/spacegroup.cpp:126
 msgid "&Crystal"
 msgstr ""
 
@@ -3492,11 +3494,11 @@ msgstr ""
 
 #. i18n: file: qtplugins/crystal/importcrystaldialog.ui:14
 #. i18n: ectx: property (windowTitle), widget (QDialog, Avogadro::QtPlugins::ImportCrystalDialog)
-#: qtplugins/insertfragment/insertfragment.cpp:117 :424
+#: qtplugins/insertfragment/insertfragment.cpp:120 :424
 msgid "Import Crystal"
 msgstr ""
 
-#: qtplugins/insertfragment/insertfragment.cpp:121
+#: qtplugins/insertfragment/insertfragment.cpp:125
 msgid "Insert Fragment"
 msgstr ""
 
@@ -3966,16 +3968,16 @@ msgstr ""
 msgid "Angle tolerance:"
 msgstr ""
 
-#: qtplugins/noncovalent/noncovalent.h:34
-msgid "Render a few non-covalent interactions."
-msgstr ""
-
-#: qtplugins/noncovalent/noncovalent.h:54
+#: qtplugins/noncovalent/noncovalent.cpp:412
 msgid "Halogen"
 msgstr ""
 
-#: qtplugins/noncovalent/noncovalent.h:55
+#: qtplugins/noncovalent/noncovalent.cpp:415
 msgid "Chalcogen"
+msgstr ""
+
+#: qtplugins/noncovalent/noncovalent.h:34
+msgid "Render a few non-covalent interactions."
 msgstr ""
 
 #: qtplugins/openbabel/openbabel.cpp:54
@@ -5109,112 +5111,199 @@ msgstr ""
 msgid "New Layer"
 msgstr ""
 
-#: qtplugins/spacegroup/spacegroup.cpp:50
+#: qtplugins/spacegroup/spacegroup.cpp:60
 msgid "Perceive Space Group…"
 msgstr ""
 
 #. i18n: file: qtplugins/symmetry/symmetrywidget.ui:99
 #. i18n: ectx: property (text), widget (QPushButton, symmetrizeMoleculeButton)
-#: qtplugins/spacegroup/spacegroup.cpp:68 :2163
+#: qtplugins/spacegroup/spacegroup.cpp:78 :2163
 msgid "Symmetrize"
 msgstr ""
 
-#: qtplugins/spacegroup/spacegroup.cpp:73
-msgid "Fill Unit Cell…"
-msgstr ""
-
-#: qtplugins/spacegroup/spacegroup.cpp:79
-#: qtplugins/spacegroup/spacegroup.cpp:338
+#: qtplugins/spacegroup/spacegroup.cpp:83
+#: qtplugins/spacegroup/spacegroup.cpp:560
 msgid "Reduce to Asymmetric Unit"
 msgstr ""
 
-#: qtplugins/spacegroup/spacegroup.cpp:85
+#: qtplugins/spacegroup/spacegroup.cpp:89
 msgid "Set Tolerance…"
 msgstr ""
 
-#: qtplugins/spacegroup/spacegroup.cpp:109
+#: qtplugins/spacegroup/spacegroup.cpp:95
+msgid "Fill Unit Cell…"
+msgstr ""
+
+#: qtplugins/spacegroup/spacegroup.cpp:101
+msgctxt "fill the translationally unique repeat unit"
+msgid "Fill Translation Cell…"
+msgstr ""
+
+#: qtplugins/spacegroup/spacegroup.cpp:126
 msgid "Space Group"
 msgstr ""
 
-#: qtplugins/spacegroup/spacegroup.cpp:116
+#: qtplugins/spacegroup/spacegroup.cpp:133
 msgid "Fill symmetric atoms based on the crystal space group."
 msgstr ""
 
-#: qtplugins/spacegroup/spacegroup.cpp:191
+#: qtplugins/spacegroup/spacegroup.cpp:135
+msgid "Fill all atoms based on the crystal space group."
+msgstr ""
+
+#: qtplugins/spacegroup/spacegroup.cpp:384
+#: qtplugins/spacegroup/spacegroup.cpp:412
 msgid "Perceive Space Group"
 msgstr ""
 
-#: qtplugins/spacegroup/spacegroup.cpp:192
+#: qtplugins/spacegroup/spacegroup.cpp:385
 #, qt-format
 msgid ""
 "The space group is already set to: %1.\n"
 "Would you like to overwrite it?"
 msgstr ""
 
-#: qtplugins/spacegroup/spacegroup.cpp:222
+#: qtplugins/spacegroup/spacegroup.cpp:401
+#, qt-format
+msgid ""
+"Space group perception succeeded:\n"
+"Tolerance: %1  Å\n"
+"Space Group: %2\n"
+"Hall symbol: %3\n"
+"International symbol: %4"
+msgstr ""
+
+#: qtplugins/spacegroup/spacegroup.cpp:418
 msgid "Failure"
 msgstr ""
 
-#: qtplugins/spacegroup/spacegroup.cpp:223
+#: qtplugins/spacegroup/spacegroup.cpp:419
 msgid ""
 "Space group perception failed.\n"
 "Would you like to try again with a different tolerance?"
 msgstr ""
 
-#: qtplugins/spacegroup/spacegroup.cpp:238
+#: qtplugins/spacegroup/spacegroup.cpp:434
 msgid "Primitive Reduction"
 msgstr ""
 
-#: qtplugins/spacegroup/spacegroup.cpp:239
-#: qtplugins/spacegroup/spacegroup.cpp:264
-#: qtplugins/spacegroup/spacegroup.cpp:289
+#: qtplugins/spacegroup/spacegroup.cpp:435
+#: qtplugins/spacegroup/spacegroup.cpp:460
+#: qtplugins/spacegroup/spacegroup.cpp:485
 #, qt-format
 msgid ""
 "The tolerance is currently set to: %1.\n"
 "Proceed with this tolerance?"
 msgstr ""
 
-#: qtplugins/spacegroup/spacegroup.cpp:252
+#: qtplugins/spacegroup/spacegroup.cpp:448
 msgid ""
 "Primitive reduction failed.\n"
 "Please check your crystal and try again with a different tolerance."
 msgstr ""
 
-#: qtplugins/spacegroup/spacegroup.cpp:277
+#: qtplugins/spacegroup/spacegroup.cpp:473
 msgid ""
 "Conventionalize cell failed.\n"
 "Please check your crystal and try again with a different tolerance."
 msgstr ""
 
-#: qtplugins/spacegroup/spacegroup.cpp:301
+#: qtplugins/spacegroup/spacegroup.cpp:497
 msgid ""
 "Symmetrization failed.\n"
 "Please check your crystal and try again with a different tolerance."
 msgstr ""
 
-#: qtplugins/spacegroup/spacegroup.cpp:359 qtplugins/yaehmop/yaehmop.cpp:208
+#: qtplugins/spacegroup/spacegroup.cpp:549
+#, qt-format
+msgid ""
+"With a tolerance of %1  Å, the space group information was perceived to be "
+"the following:\n"
+"International number: %2\n"
+"Hall symbol: %3\n"
+"International symbol: %4\n"
+"\n"
+"Proceed with this space group?"
+msgstr ""
+
+#: qtplugins/spacegroup/spacegroup.cpp:580 qtplugins/yaehmop/yaehmop.cpp:208
 #: qtplugins/yaehmop/yaehmop.cpp:298 qtplugins/yaehmop/yaehmop.cpp:310
 #: qtplugins/yaehmop/yaehmop.cpp:323 qtplugins/yaehmop/yaehmop.cpp:433
 msgid "Avogadro2"
 msgstr ""
 
-#: qtplugins/spacegroup/spacegroup.cpp:360
+#: qtplugins/spacegroup/spacegroup.cpp:581
 msgid "Select tolerance in Å:"
 msgstr ""
 
-#: qtplugins/spacegroup/spacegroup.cpp:376
+#: qtplugins/spacegroup/spacegroup.cpp:598
+msgid "Triclinic"
+msgstr ""
+
+#: qtplugins/spacegroup/spacegroup.cpp:600
+msgid "Monoclinic"
+msgstr ""
+
+#: qtplugins/spacegroup/spacegroup.cpp:602
+msgid "Orthorhombic"
+msgstr ""
+
+#: qtplugins/spacegroup/spacegroup.cpp:604
+msgid "Tetragonal"
+msgstr ""
+
+#: qtplugins/spacegroup/spacegroup.cpp:606
+msgid "Trigonal"
+msgstr ""
+
+#: qtplugins/spacegroup/spacegroup.cpp:608
+msgid "Rhombohedral"
+msgstr ""
+
+#: qtplugins/spacegroup/spacegroup.cpp:610
+msgid "Hexagonal"
+msgstr ""
+
+#: qtplugins/spacegroup/spacegroup.cpp:612
+msgid "Cubic"
+msgstr ""
+
+#: qtplugins/spacegroup/spacegroup.cpp:644
+msgid "Primitive Cell Detected"
+msgstr ""
+
+#: qtplugins/spacegroup/spacegroup.cpp:646
+#, qt-format
+msgid ""
+"The current unit cell appears to be a primitive cell (non-90° angles), but "
+"the space group %1 expects a centered conventional cell.\n"
+"\n"
+"Filling the unit cell may create unexpected duplicate atoms.\n"
+"\n"
+"Would you like to create a conventional cell first?"
+msgstr ""
+
+#: qtplugins/spacegroup/spacegroup.cpp:660
+msgid "Failed to conventionalize the cell."
+msgstr ""
+
+#: qtplugins/spacegroup/spacegroup.cpp:676
 msgid "International"
 msgstr ""
 
-#: qtplugins/spacegroup/spacegroup.cpp:376
+#: qtplugins/spacegroup/spacegroup.cpp:676
 msgid "Hall"
 msgstr ""
 
-#: qtplugins/spacegroup/spacegroup.cpp:376
+#: qtplugins/spacegroup/spacegroup.cpp:676
 msgid "Hermann-Mauguin"
 msgstr ""
 
-#: qtplugins/spacegroup/spacegroup.cpp:389
+#: qtplugins/spacegroup/spacegroup.cpp:677
+msgid "Crystal System"
+msgstr ""
+
+#: qtplugins/spacegroup/spacegroup.cpp:709
 msgid "Select Space Group"
 msgstr ""
 
@@ -5222,7 +5311,7 @@ msgstr ""
 msgid "SpaceGroup"
 msgstr ""
 
-#: qtplugins/spacegroup/spacegroup.h:70
+#: qtplugins/spacegroup/spacegroup.h:85
 msgid "Space group features for crystals."
 msgstr ""
 
